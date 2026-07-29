@@ -1,3 +1,5 @@
+require("doctorbattery_l10n").install()
+
 local Diagnosis = require("diagnosis")
 local Battery = require("battery")
 
@@ -7,7 +9,6 @@ local InfoMessage = require("ui/widget/infomessage")
 local ButtonDialog = require("ui/widget/buttondialog")
 
 local _ = require("gettext")
-
 local DoctorBattery = WidgetContainer:extend{
     name = "doctorbattery",
 }
@@ -235,12 +236,13 @@ function DoctorBattery:addToMainMenu(menu_items)
 
         callback = function()
 
-            local info = Battery:getInfo()
-            info = Diagnosis:analyze(info)
+    local info = Battery:getInfo()
+    info = Diagnosis:analyze(info)
 
-            showMainMenu(info)
+    showMainMenu(info)
 
-        end,
+end,
+
     }
 
 end
