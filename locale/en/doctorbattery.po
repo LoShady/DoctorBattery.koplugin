@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DoctorBattery 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-29 00:00+0000\n"
+"PO-Revision-Date: 2026-07-29 00:00+0000\n"
+"Last-Translator: Lo Shady\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.lua:26
+#, lua-format
+msgid ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"📋 STATO BATTERIA\n"
+"\n"
+"🔋 Carica: %d%%\n"
+"❤️ Salute: %s\n"
+"⚡ Stato: %s\n"
+"🔄 Cicli di ricarica: %d"
+msgstr ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"📋 BATTERY STATUS\n"
+"\n"
+"🔋 Charge: %d%%\n"
+"❤️ Health: %s\n"
+"⚡ Status: %s\n"
+"🔄 Charge cycles: %d"
+
+#: main.lua:50
+msgid ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"🩺 DIAGNOSI\n"
+"\n"
+msgstr ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"🩺 DIAGNOSIS\n"
+"\n"
+
+#: main.lua:64
+#, lua-format
+msgid ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"⚙️ PARAMETRI ELETTRICI\n"
+"\n"
+"🌡️ Temperatura: %d °C\n"
+"🔌 Tensione attuale: %.3f V\n"
+"⬆️ Tensione massima: %.3f V\n"
+"⬇️ Tensione minima: %.3f V\n"
+"\n"
+"⚡ Corrente attuale: %.1f mA\n"
+"📊 Corrente media: %.1f mA\n"
+"⬆️ Corrente massima: %.0f mA\n"
+"\n"
+"🔋 Capacità attuale: %.0f mAh\n"
+"📈 Capacità reale: %.0f mAh\n"
+"🏭 Capacità progetto: %.0f mAh\n"
+"📦 Gauge stimato: %.0f mAh\n"
+"\n"
+"📉 Usura: %.1f%%\n"
+"🛡️ Parametri sicuri: %s\n"
+"⚠️ Stress: %s"
+msgstr ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"⚙️ ELECTRICAL PARAMETERS\n"
+"\n"
+"🌡️ Temperature: %d °C\n"
+"🔌 Current voltage: %.3f V\n"
+"⬆️ Maximum voltage: %.3f V\n"
+"⬇️ Minimum voltage: %.3f V\n"
+"\n"
+"⚡ Current: %.1f mA\n"
+"📊 Average current: %.1f mA\n"
+"⬆️ Maximum current: %.0f mA\n"
+"\n"
+"🔋 Current capacity: %.0f mAh\n"
+"📈 Actual capacity: %.0f mAh\n"
+"🏭 Design capacity: %.0f mAh\n"
+"📦 Estimated gauge: %.0f mAh\n"
+"\n"
+"📉 Wear: %.1f%%\n"
+"🛡️ Safe charging: %s\n"
+"⚠️ Stress: %s"
+
+#: main.lua:102
+msgid "Attiva"
+msgstr "Enabled"
+
+#: main.lua:102
+msgid "Non attiva"
+msgstr "Disabled"
+
+#: main.lua:103
+msgid "Presente"
+msgstr "Present"
+
+#: main.lua:103
+msgid "Assente"
+msgstr "Absent"
+
+#: main.lua:114
+msgid ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"ℹ️ INFORMAZIONI\n"
+"\n"
+"DoctorBattery analizza lo stato della batteria\n"
+"utilizzando i dati esposti dal sistema del Kindle.\n"
+"\n"
+"Le valutazioni sono stime e non sostituiscono\n"
+"gli strumenti diagnostici del produttore.\n"
+"\n"
+"Sviluppato per KOReader.\n"
+"By Lo Shady"
+msgstr ""
+"🩺 DoctorBattery\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"\n"
+"ℹ️ INFORMATION\n"
+"\n"
+"DoctorBattery analyzes the battery status\n"
+"using data provided by the Kindle system.\n"
+"\n"
+"The reported values are estimates and do not replace\n"
+"the manufacturer's diagnostic tools.\n"
+"\n"
+"Developed for KOReader.\n"
+"By Lo Shady"
+
+#: main.lua:157
+msgid "🩺 DoctorBattery"
+msgstr "🩺 DoctorBattery"
+
+#: main.lua:163
+msgid "📋 Riepilogo"
+msgstr "📋 Summary"
+
+#: main.lua:166
+msgid "Riepilogo"
+msgstr "Summary"
+
+#: main.lua:173
+msgid "🩺 Diagnosi"
+msgstr "🩺 Diagnosis"
+
+#: main.lua:176
+msgid "Diagnosi"
+msgstr "Diagnosis"
+
+#: main.lua:183
+msgid "⚙️ Parametri tecnici"
+msgstr "⚙️ Technical parameters"
+
+#: main.lua:186
+msgid "Parametri tecnici"
+msgstr "Technical parameters"
+
+#: main.lua:193
+msgid "ℹ️ Informazioni"
+msgstr "ℹ️ Information"
+
+#: main.lua:196
+msgid "Informazioni"
+msgstr "Information"
+
+#: main.lua:203
+msgid "❌ Chiudi"
+msgstr "❌ Close"
+
+#: main.lua:233
+#: _meta.lua:5
+msgid "DoctorBattery"
+msgstr "DoctorBattery"
+
+#: diagnosis.lua:59
+#, lua-format
+msgid "%s Battery Score: %d/100"
+msgstr "%s Battery Score: %d/100"
+
+#: diagnosis.lua:76
+msgid "🟢 Batteria in condizioni eccellenti"
+msgstr "🟢 Battery is in excellent condition"
+
+#: diagnosis.lua:83
+msgid "🟡 Batteria in buone condizioni"
+msgstr "🟡 Battery is in good condition"
+
+#: diagnosis.lua:90
+msgid "🔴 Batteria usurata"
+msgstr "🔴 Battery is worn"
+
+#: diagnosis.lua:105
+#, lua-format
+msgid "• Cicli di ricarica: %d"
+msgstr "• Charge cycles: %d"
+
+#: diagnosis.lua:112
+msgid "🟢 Batteria ancora giovane"
+msgstr "🟢 Battery is still in its early life"
+
+#: diagnosis.lua:119
+msgid "🟡 Usura nella norma"
+msgstr "🟡 Wear is within the normal range"
+
+#: diagnosis.lua:126
+msgid "🟠 Cicli elevati"
+msgstr "🟠 High cycle count"
+
+#: diagnosis.lua:133
+msgid "🔴 Numero di cicli molto elevato"
+msgstr "🔴 Very high cycle count"
+
+#: diagnosis.lua:149
+#, lua-format
+msgid "• Capacità reale: %.0f / %.0f mAh"
+msgstr "• Actual capacity: %.0f / %.0f mAh"
+
+#: diagnosis.lua:162
+#, lua-format
+msgid "🟢 Capacità eccellente (%.1f%%)"
+msgstr "🟢 Excellent capacity (%.1f%%)"
+
+#: diagnosis.lua:172
+#, lua-format
+msgid "🟡 Capacità buona (%.1f%%)"
+msgstr "🟡 Good capacity (%.1f%%)"
+
+#: diagnosis.lua:182
+#, lua-format
+msgid "🟠 Capacità ridotta (%.1f%%)"
+msgstr "🟠 Reduced capacity (%.1f%%)"
+
+#: diagnosis.lua:192
+#, lua-format
+msgid "🔴 Capacità molto degradata (%.1f%%)"
+msgstr "🔴 Severely degraded capacity (%.1f%%)"
+
+#: diagnosis.lua:213
+#, lua-format
+msgid "🔴 Temperatura critica: %.1f°C"
+msgstr "🔴 Critical temperature: %.1f°C"
+
+#: diagnosis.lua:220
+#, lua-format
+msgid "🟡 Batteria fredda (%.1f°C)"
+msgstr "🟡 Battery is cold (%.1f°C)"
+
+#: diagnosis.lua:227
+#, lua-format
+msgid "🟢 Temperatura ottimale (%.1f°C)"
+msgstr "🟢 Optimal temperature (%.1f°C)"
+
+#: diagnosis.lua:234
+#, lua-format
+msgid "🟠 Batteria calda (%.1f°C)"
+msgstr "🟠 Battery is warm (%.1f°C)"
+
+#: diagnosis.lua:241
+#, lua-format
+msgid "🔴 Batteria molto calda (%.1f°C)"
+msgstr "🔴 Battery is overheating (%.1f°C)"
+
+#: diagnosis.lua:258
+msgid "🟢 Ricarica protetta attiva"
+msgstr "🟢 Safe charging is enabled"
+
+#: diagnosis.lua:263
+msgid ""
+"• Il sistema sta limitando la ricarica per preservare la durata della batteria."
+msgstr ""
+"• The system is limiting charging to extend the battery's lifespan."
+
+#: diagnosis.lua:270
+msgid "🟢 Ricarica normale"
+msgstr "🟢 Normal charging"
+
+#: diagnosis.lua:287
+msgid "🔴 La batteria mostra segni di stress"
+msgstr "🔴 The battery shows signs of stress"
+
+#: diagnosis.lua:292
+msgid ""
+"• Evita scariche complete e temperature elevate per preservarne la durata."
+msgstr ""
+"• Avoid deep discharges and high temperatures to extend battery life."
+
+#: diagnosis.lua:299
+msgid "🟢 Nessun segno di stress rilevato"
+msgstr "🟢 No signs of battery stress detected"
+
+#: diagnosis.lua:317
+msgid "In scarica"
+msgstr "Discharging"
+
+#: diagnosis.lua:318
+msgid "In carica"
+msgstr "Charging"
+
+#: diagnosis.lua:319
+msgid "Carica completa"
+msgstr "Fully charged"
+
+#: diagnosis.lua:320
+msgid "Sconosciuto"
+msgstr "Unknown"
+
+#: diagnosis.lua:328
+msgid "Ottima"
+msgstr "Excellent"
+
+#: diagnosis.lua:329
+msgid "Esaurita"
+msgstr "Dead"
+
+#: diagnosis.lua:330
+msgid "Surriscaldata"
+msgstr "Overheated"
+
+#: diagnosis.lua:331
+msgid "Troppo fredda"
+msgstr "Too cold"
+
+#: diagnosis.lua:332
+msgid "Sconosciuta"
+msgstr "Unknown"
+
+#: _meta.lua:6
+msgid "Analyze battery health and charging status"
+msgstr "Analyze battery health and charging status"
