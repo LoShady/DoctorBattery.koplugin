@@ -85,6 +85,31 @@ Doctor Battery is designed for KOReader.
 Some battery information depends on the operating system and device hardware. Therefore, certain values may not be available on every e-reader.
 
 ---
+## Screenshots
+
+### Main Screen
+
+The main entry point of DoctorBattery, providing quick access to all available battery diagnostic tools.
+
+![Main Screen](screenshots/MAIN.png)
+
+### Battery Status
+
+Displays the current battery status, including charge level, charging state, health indicators, and other essential information.
+
+![Battery Status](screenshots/B.S.png)
+
+### Diagnosis
+
+Provides a complete battery diagnosis with health evaluation, detected issues, and recommendations.
+
+![Diagnosis](screenshots/D.D.png)
+
+### Electrical Parameters
+
+Shows detailed electrical measurements such as voltage, current, temperature, and other battery parameters.
+
+![Electrical Parameters](screenshots/E.P.png)
 
 ## Contributing
 
