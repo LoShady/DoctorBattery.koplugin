@@ -25,7 +25,7 @@ local function buildSummary(info)
     return string.format(
 
         _("🩺 DoctorBattery\n" ..
-        "━━━━━━━━━━━━━━━━━━\n\n" ..
+        "━━━━━━━━━━━━━━━━\n\n" ..
 
         "📋 STATO BATTERIA\n\n" ..
 
@@ -49,7 +49,7 @@ local function buildDiagnosis(info)
 
     return
         _("🩺 DoctorBattery\n" ..
-        "━━━━━━━━━━━━━━━━━━\n\n" ..
+        "━━━━━━━━━━━━━━━━\n\n" ..
         "🩺 DIAGNOSI\n\n") ..
         info.diagnosis
 end
@@ -63,7 +63,7 @@ local function buildTechnical(info)
     return string.format(
 
         _("🩺 DoctorBattery\n" ..
-        "━━━━━━━━━━━━━━━━━━\n\n" ..
+        "━━━━━━━━━━━━━━━━\n\n" ..
 
         "⚙️ PARAMETRI ELETTRICI\n\n" ..
 
@@ -113,7 +113,7 @@ local function buildInfo()
 
     return
         _("🩺 DoctorBattery\n" ..
-        "━━━━━━━━━━━━━━━━━━\n\n" ..
+        "━━━━━━━━━━━━━━━━\n\n" ..
 
         "ℹ️ INFORMAZIONI\n\n" ..
 
