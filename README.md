@@ -60,7 +60,26 @@ Currently available translations:
 - 🇩🇪 German
 - 🇪🇸 Spanish
 
-If your language is not yet available, contributions are welcome.
+### Adding a new translation
+
+New translations are always welcome.
+
+1. Create a new `.po` translation file.
+2. Compile it into the corresponding `.mo` file.
+3. Rename the compiled file to `doctorbattery.mo`.
+4. Place it inside:
+
+```text
+locale/<language_code>/LC_MESSAGES/
+```
+
+Example:
+
+```text
+locale/pt/LC_MESSAGES/doctorbattery.mo
+```
+
+Then open a Pull Request and your translation can be included in the next release.
 
 ---
 
