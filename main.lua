@@ -7,6 +7,7 @@ local WidgetContainer = require("ui/widget/container/widgetcontainer")
 local UIManager = require("ui/uimanager")
 local InfoMessage = require("ui/widget/infomessage")
 local ButtonDialog = require("ui/widget/buttondialog")
+local DataStorage = require("datastorage")
 
 local _ = require("gettext")
 local DoctorBattery = WidgetContainer:extend{
@@ -198,6 +199,36 @@ showMainMenu = function(info)
                     end,
                 },
             },
+{
+    {
+        text = _("🛠 Export Debug Report"),
+        callback = function()
+
+            UIManager:close(dialog)
+
+            local path = DataStorage:getDataDir() .. "/doctorbattery_debug.txt"
+
+            local ok, err = Battery:exportDebugReport(path)
+
+            if ok then
+                UIManager:show(
+                    InfoMessage:new{
+                        title = _("Debug Report"),
+                        text = _("Debug report saved to:\n\n") .. path,
+                    }
+                )
+            else
+                UIManager:show(
+                    InfoMessage:new{
+                        title = _("Error"),
+                        text = err,
+                    }
+                )
+            end
+
+        end,
+    },
+},
 
             {
                 {
