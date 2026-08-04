@@ -5,52 +5,97 @@
 <h1 align="center">Doctor Battery</h1>
 
 <p align="center">
-  Battery diagnostics plugin for KOReader
+  Advanced battery diagnostics, system information and hardware analysis plugin for KOReader
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/KOReader-Compatible-4CAF50?style=for-the-badge" alt="KOReader Compatible">
   <img src="https://img.shields.io/badge/License-MIT-1976D2?style=for-the-badge" alt="MIT License">
-  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20IT%20%7C%20FR%20%7C%20DE%20%7C%20ES-FF9800?style=for-the-badge" alt="Languages">
+  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20IT%20%7C%20FR%20%7C%20DE%20%7C%20ES%20%7C%20PT-FF9800?style=for-the-badge" alt="Languages">
 </p>
 
 ---
 
-Doctor Battery is a battery diagnostics plugin for KOReader that provides detailed information about your device's battery health, charging status and overall condition.
+Doctor Battery is an advanced diagnostic plugin for KOReader that provides comprehensive battery, hardware and operating system information for your e-reader.
 
-Instead of showing only the battery percentage, Doctor Battery gathers additional battery information exposed by the operating system and presents it through a simple, intuitive and easy-to-read interface.
+Instead of displaying only the battery percentage, Doctor Battery collects battery and hardware information exposed by the operating system and presents it through a clean, intuitive and easy-to-read interface.
 
-The plugin helps users monitor battery health, charging behavior and detect potential issues over time.
+From battery health monitoring to complete hardware analysis, Doctor Battery is designed to help users better understand their devices while continuously improving compatibility across Kindle, Kobo, Android and other Linux-based e-readers.
 
 ---
 
-## Features
+# ✨ Features
+
+## 🔋 Battery Diagnostics
+
+Doctor Battery provides a complete overview of your battery status.
+
+Features include:
 
 - 🔋 Battery percentage
 - ❤️ Battery health estimation
-- ⚡ Charging / discharging status
+- ⚡ Charging / Discharging status
 - 🔄 Battery cycle count (when supported)
-- 🌡️ Battery temperature (when available)
+- 🌡️ Battery temperature
+- 🔌 Battery voltage
+- ⚙️ Battery current
+- 🔋 Battery capacity (when available)
 - 🔌 Charging source detection (USB / AC / Wireless, when supported)
-- 📊 Detailed battery information
+- 📊 Detailed battery statistics
 - 🩺 Automatic battery diagnostics
-- ⚠️ Detection of possible battery issues
-- 🌍 Multi-language support
+- ⚠️ Battery issue detection
+- 💡 Health recommendations
 
 ---
 
-## Installation
+## 🖥️ System Information
 
-1. Download the latest release.
-2. Extract the archive.
-3. Copy the `DoctorBattery.koplugin` folder into the `plugins` directory of KOReader.
-4. Restart KOReader.
+The new **System Information** section provides a detailed overview of your device.
+
+Available categories include:
+
+- 📱 Device Information
+- ⚙️ Hardware Information
+- 💾 Storage Information
+- 🧠 Memory Information
+- 🔋 Battery Information
+- 🖥️ CPU Information
+- 🌐 Network Information
+- 📂 Operating System Information
+- 📦 Environment Information
 
 ---
 
-## Language
+## 🔍 Hardware Scan
 
-Doctor Battery automatically uses the language currently configured in KOReader.
+Doctor Battery includes a powerful **Hardware Scan** utility that searches common Linux system paths for battery- and hardware-related information.
+
+The generated report helps identify where different devices expose battery information and is used to continuously improve compatibility across different e-reader platforms.
+
+Current scan locations include:
+
+```text
+/sys/class/power_supply/
+/sys/devices/
+/proc/
+/proc/device-tree/
+/proc/sys/
+/etc/
+/dev/
+/var/
+/usr/
+/mnt/
+```
+
+If your device is not fully supported, simply run **Hardware Scan**, generate the report and attach it to a GitHub Issue.
+
+This is the fastest way to improve compatibility with additional Kindle, Kobo, Android and Linux-based devices.
+
+---
+
+## 🌍 Multi-language Support
+
+Doctor Battery automatically follows the language currently configured in KOReader.
 
 Currently available translations:
 
@@ -59,85 +104,118 @@ Currently available translations:
 - 🇫🇷 French
 - 🇩🇪 German
 - 🇪🇸 Spanish
+- 🇵🇹 Portuguese
 
-### Adding a new translation
+Special thanks to **@CookieCaptainD** for contributing the Portuguese translation.
 
-New translations are always welcome.
-
-1. Create a new `.po` translation file.
-2. Compile it into the corresponding `.mo` file.
-3. Rename the compiled file to `doctorbattery.mo`.
-4. Place it inside:
-
-```text
-locale/<language_code>/LC_MESSAGES/
-```
-
-Example:
-
-```text
-locale/pt/LC_MESSAGES/doctorbattery.mo
-```
-
-Then open a Pull Request and your translation can be included in the next release.
+New translations are always welcome!
 
 ---
 
-## Emoji Support
+# 📥 Installation
 
-Doctor Battery uses emoji icons to improve readability.
+1. Download the latest release.
+2. Extract the archive.
+3. Copy the `DoctorBattery.koplugin` folder into:
 
-Some devices or fonts may not display emojis correctly. If you see missing symbols or empty squares, install an emoji-compatible font.
+```text
+koreader/plugins/
+```
 
-Doctor Battery has been tested with **Noto Color Emoji**, which is the recommended font for displaying all icons correctly.
+4. Restart KOReader.
 
-For installation instructions, follow the guide from the KOAssistant project:
+---
+
+# 😊 Emoji Support
+
+Doctor Battery uses emoji icons throughout the interface to improve readability and make information easier to identify.
+
+Some devices or fonts may not display emojis correctly.
+
+For the best experience, install an emoji-compatible font.
+
+Doctor Battery has been tested with **Noto Color Emoji**, which is currently the recommended font.
+
+For installation instructions, please follow the KOAssistant guide:
 
 https://github.com/zeeyado/koassistant.koplugin?tab=readme-ov-file#emoji-font-setup
 
 ---
 
-## Compatibility
+# 📱 Compatibility
 
 Doctor Battery is designed for KOReader.
 
-Some battery information depends on the operating system and device hardware. Therefore, certain values may not be available on every e-reader.
+Most information is obtained directly from the operating system.
+
+Because every manufacturer exposes hardware information differently, some values may not be available on every device.
+
+Doctor Battery has been designed to gracefully handle unsupported fields whenever possible.
+
+Compatibility will continue to improve as more Hardware Scan reports are collected from the community.
 
 ---
-## Screenshots
 
-### Main Screen
+# 📸 Screenshots
 
-The main entry point of DoctorBattery, providing quick access to all available battery diagnostic tools.
+## 🏠 Main Menu
 
-![Main Screen](screenshots/MAIN.png)
+Quick access to all Doctor Battery features.
 
-### Battery Status
+![Main Menu](screenshots/MAIN.png)
 
-Displays the current battery status, including charge level, charging state, health indicators, and other essential information.
+---
+
+## 🔋 Battery Status
+
+Displays battery charge, charging status and general battery information.
 
 ![Battery Status](screenshots/B.S.png)
 
-### Diagnosis
+---
 
-Provides a complete battery diagnosis with health evaluation, detected issues, and recommendations.
+## 🩺 Battery Diagnosis
 
-![Diagnosis](screenshots/D.D.png)
+Automatic battery analysis with detected issues and health recommendations.
 
-### Electrical Parameters
-
-Shows detailed electrical measurements such as voltage, current, temperature, and other battery parameters.
-
-![Electrical Parameters](screenshots/E.P.png)
-
-## Contributing
-
-Bug reports, feature requests and pull requests are always welcome.
-
-If your device exposes battery information that is not currently supported, feel free to open an issue.
+![Battery Diagnosis](screenshots/D.D.png)
 
 ---
 
-## License
+## ⚡ Electrical Parameters
 
-Released under the MIT License.
+Displays voltage, current, temperature and other electrical measurements.
+
+![Electrical Parameters](screenshots/E.P.png)
+
+---
+
+## 🖥️ System Information
+
+Comprehensive hardware and operating system information.
+
+![System Information](screenshots/SYSTEM.png)
+
+---
+
+## 🔍 Hardware Scan
+
+Automatically scans the system searching for battery-related hardware paths.
+
+![Hardware Scan](screenshots/HARDWARESCAN.png)
+
+---
+
+# 🤝 Contributing
+
+Bug reports, feature requests and pull requests are always welcome.
+
+If Doctor Battery doesn't correctly detect battery or hardware information on your device, please open a GitHub Issue and attach the generated **Hardware Scan** report.
+
+Providing the scan report is the fastest and easiest way to improve compatibility with your device.
+
+---
+
+# 📄 License
+
+Doctor Battery is released under the **MIT License**.
