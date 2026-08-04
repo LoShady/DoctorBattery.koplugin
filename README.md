@@ -198,13 +198,6 @@ Comprehensive hardware and operating system information.
 
 ---
 
-## 🔍 Hardware Scan
-
-Automatically scans the system searching for battery-related hardware paths.
-
-![Hardware Scan](screenshots/HARDWARESCAN.png)
-
----
 
 # 🤝 Contributing
 
