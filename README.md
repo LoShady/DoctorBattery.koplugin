@@ -134,7 +134,7 @@ Some devices or fonts may not display emojis correctly.
 
 For the best experience, install an emoji-compatible font.
 
-Doctor Battery has been tested with **Noto Color Emoji**, which is currently the recommended font.
+Doctor Battery has been tested with **NotoEmoji**, which is currently the recommended font.
 
 For installation instructions, please follow the KOAssistant guide:
 
